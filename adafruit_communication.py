@@ -55,29 +55,6 @@ def adafruit():
         aio.send_data(temperature.key, line)
     except:
         print("error")
-    
-    # works the same as send now
-    #aio.append(temperature.key, line)
-
-    # # setup batch data with custom created_at values
-    # yesterday = (datetime.datetime.today() - datetime.timedelta(1)).isoformat()
-    # today = datetime.datetime.now().isoformat()
-    # data_list = [Data(value=50, created_at=today), Data(value=33, created_at=yesterday)]
-    # # send batch data
-    # aio.send_batch_data(temperature.key, data_list)
-
-    #
-    # Retrieving data
-    #
-# 
-#     data = aio.receive_next(temperature.key)
-#     print(data)
-# 
-#     data = aio.receive(temperature.key)
-#     print(data)
-# 
-#     data = aio.receive_previous(temperature.key)
-#     print(data)
     time.sleep(2)
 
 theta_1 = [-2.69804832, -2.90983459, -3.02717846, -3.06183911, -3.01303047, -2.88536955,
