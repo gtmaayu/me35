@@ -28,7 +28,7 @@ def getAngle():
 
 
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = 'aio_PxTc83TcNryv4j6o0JVI7bF86WvR'
+ADAFRUIT_IO_KEY = 'KEY'
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username)
